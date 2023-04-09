@@ -1,5 +1,5 @@
 import Style from"./Forms.module.css"
-import { useState } from "react"
+import { useState,useEffect } from "react"
 import validation from "./validation"
 import opening from"./opening.mp4"
 import rickmorty_title from"./rickmorty_title.png"
@@ -32,10 +32,11 @@ const Forms = (props) =>{
     const handleSubmit =()=>{
       props.login(userData)  
     }
+ 
 return(<div>
     <img src={rickmorty_title} alt="title" className={Style.titulo}></img>
     <div className={Style.openingdiv}>
-    <video src={opening} type="video/mp4" autoPlay="true" muted="true" className={Style.opening}></video>
+    <video src={opening} type="video/mp4" autoPlay="true" muted={true} className={Style.opening}></video>
     </div>
     <div className={Style.forms}>
         <form onSubmit={handleSubmit}>

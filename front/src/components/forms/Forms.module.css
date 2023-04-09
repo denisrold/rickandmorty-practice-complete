@@ -1,0 +1,127 @@
+.forms{
+    position: relative;
+    border:2px rgba(63, 63, 63, 0.055) solid;
+    border-radius: 10px;
+    padding: 2rem;
+    background-image: linear-gradient(to bottom , rgb(232, 231, 231),rgba(240, 239, 239, 0.927));
+    width: 300px;
+    box-shadow: 0 0 5px 1px rgb(118, 118, 118);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1cm;
+    animation: greenShadow 5s linear ;
+    animation-fill-mode:forwards;
+    animation-delay: 27s;
+}
+@keyframes greenShadow{
+    0%{}
+
+    100%{
+        border: 0.2px rgba(46, 232, 0, 0.441) solid ;
+        box-shadow: 0 0 50px 3px rgb(46, 232, 0);}
+}
+
+
+.errors {
+color:red;
+font-style: italic;
+font-size: 12px;
+}
+.buttons{
+           
+    background-image: linear-gradient(to bottom , rgba(99, 99, 99, 0.027), rgba(178, 178, 178, 0.037));
+        margin-top: 15px;
+        width: 80px;
+        height: 25px;
+        display: inline;
+       
+       border: 1px rgba(73, 73, 73, 0.018) solid;
+       
+       border-radius: 10px;
+       transition: 0.3s;
+       font-weight: bolder;
+       font-family: 'Gagalin', sans-serif;
+    }
+
+    .buttons:hover{
+        border: 0.01px rgb(131, 129, 129) solid ;
+        background-image: linear-gradient(to bottom , rgba(148, 151, 148, 0.66), rgba(221, 221, 221, 0.468));
+        box-shadow: 0 0 5px 1px rgb(118, 118, 118);
+
+        filter: brightness(1.2);
+    }
+    .buttons:active{
+        box-shadow:inset 0 0 5px 1px rgb(118, 118, 118);
+    }
+
+.labels{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input{
+    margin-top: 10px ;
+
+    border: 0px black;
+    outline: none;
+    text-align:center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Gagalin', sans-serif;
+}
+
+.inputs:hover{
+    box-shadow: 0 0 5px 1px rgb(118, 118, 118);
+    filter: brightness(1.2);
+}
+
+.opening{
+    position: relative;
+    width: 600px;
+    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: linear-gradient(to bottom , rgb(232, 231, 231),rgba(240, 239, 239, 0.927));
+    box-shadow:0 0 5px 1px rgb(118, 118, 118);
+}
+
+
+.openingdiv{
+
+animation: opening 264s linear ;
+animation-fill-mode:forwards;
+}
+@keyframes opening{
+    0%{
+    opacity: 1;
+    filter: saturate(1.5);
+    }
+    11.6%{
+        opacity: 1;
+    }
+    11.7%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+.titulo{
+    filter: saturate(1.5);
+    position:absolute;
+    left: 22%;
+    animation: titulo 264s linear ;
+    animation-fill-mode:forwards;
+}
+
+@keyframes titulo{
+    0%{
+    opacity: 0;
+    }
+    11.6%{
+        opacity: 0;
+        scale: 0.7;
+    }
+    12%{
+        scale:1;
+        opacity: 1;}
+    100%{opacity: 1;
+  }
+}

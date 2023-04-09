@@ -1,0 +1,5 @@
+.container{
+    background: local;
+    background-color:darkslategray;
+    background: linear-gradient(rgb(38, 63, 63), 25%, rgb(61, 95, 95));
+}

@@ -1,0 +1,126 @@
+.container{
+    border: 1.5px rgba(0, 0, 0, 0.288) solid;
+    border-radius: 0.9rem;
+    width:180px;
+    height: 300px;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 12px 2px rgb(22, 21, 21);
+    
+    margin-right:20px ;
+    margin-top:40px;
+    margin-bottom: 16px;
+    transition: 0.7s;
+    filter: brightness(0.97);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    }
+    .container:hover{
+        scale:1.1;
+        box-shadow: 10px 10px 12px 2px rgb(65, 64, 64);
+        filter: brightness(1.2);
+        filter:contrast(1.06);
+        filter: (saturate(1.2));
+    }
+
+.imagen {
+    border-radius: 0.7rem;
+    border: 1.4px rgba(15, 15, 15, 0.925) solid;
+    border-style: inset;
+    width: 170px;
+    height: 160px;
+    opacity: 1;
+    
+}
+
+.favs{
+ height: 20px;
+
+}
+
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+    margin-right:20px;
+    text-align: left;
+    opacity: 1;
+}
+
+.name {
+text-align: center;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+opacity: 1;
+}
+
+
+.linkes{
+display:flex;
+flex-direction: row-reverse;
+margin-right: 6px;
+}
+
+.info{
+margin-top: 1.6px;
+cursor:pointer;
+width: 10.2%;
+padding: 0.075rem;
+border: 2.4px rgb(0, 0, 0) solid;
+border-radius: 6px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+margin-left: 123px;
+opacity: 0.9;
+height: 52.5%;
+}
+.info:hover{
+    opacity: 1;
+    box-shadow: rgba(63, 230, 2, 0.799) -1px 1px 15px 6px;
+    scale: 0.85;
+    background-color: rgba(69, 255, 1, 0.324);
+}
+.info:active{scale: 0.7;}
+
+
+.favs{
+    width: 10%;
+    height: 5.5%;
+    padding: 0.07rem;
+    border: 3.1px rgb(0, 0, 0) solid;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0.9;
+    scale: 0.88;
+    cursor: pointer;
+}
+
+.favs:hover{
+        opacity: 1;
+        box-shadow: rgba(230, 230, 2, 0.799) -1px 1px 15px 6px;
+        scale: 0.8;
+        background-color: rgba(255, 255, 1, 0.324);
+    }
+    .favs:active{scale: 0.7;}
+
+.data{
+    margin-top: 15px;
+    position: static;
+    border: 0.5px rgba(95, 95, 95, 0.384) solid;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(95, 96, 97, 0.352);
+    border-radius: 10px;
+    opacity: 0.83;
+    margin-bottom: 10px;
+    height: 45px;
+
+}
+
+.text{
+    margin-top: 5px;
+    color: black;
+    opacity: 1;
+}

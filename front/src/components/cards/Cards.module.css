@@ -1,0 +1,10 @@
+.divs{
+display: grid;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+width: fit-content;
+grid-template-columns: repeat(4, 230px);
+grid-template-rows: repeat(2, 300px);
+padding: 0.8rem;
+}
+

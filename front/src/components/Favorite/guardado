@@ -1,0 +1,15 @@
+function Favorite({id, name, species, gender, image}) {
+    return (
+        <div className={styles.container} >
+              <h2 className={styles.name}>{name}</h2>
+              <img className={styles.imagen} src={image} alt={name}></img>
+              <Link to={`/detail/${id}`} className={styles.links}>
+              <button className={styles.objetivo}>detalles</button>
+              </Link >
+              <div className={styles.data}>
+              <h2>{species}</h2>
+              <h2>{gender}</h2>
+           </div>      
+        </div>
+     );
+  }

@@ -1,0 +1,50 @@
+.buttonNav{
+    font-family: 'Gagalin', sans-serif;
+    height: 24px;
+    width: fit-content;
+    margin-right: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+    color:rgb(34, 33, 33);
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(142, 142, 142, 0);
+    background-image: linear-gradient(to bottom , rgba(99, 99, 99, 0.034), rgba(178, 178, 178, 0));
+    transition: 0.3s;
+    border: 0.0px gray solid;
+}
+.buttonNav:hover{
+    border: 0.01px rgb(131, 129, 129) solid ;
+    background-image: linear-gradient(to bottom , rgba(148, 151, 148, 0.66), rgba(221, 221, 221, 0.468));
+    box-shadow: 0 0 5px 1px rgb(118, 118, 118);   
+    filter: brightness(1.2);
+    scale: 1;
+    box-shadow: 0 0 5px 1px rgba(158, 158, 158, 0.753);
+}
+.buttonNav:active{
+    box-shadow:inset 0 0 5px 1px rgb(118, 118, 118);
+}
+.searchs{
+    margin-left: 235px
+}
+.inputs{
+    margin-top: 10px ;
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+    border: 0px black;
+    outline: none;
+    text-align:center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Gagalin', sans-serif;
+}
+.inputs:hover{
+    box-shadow: 0 0 5px 1px rgb(118, 118, 118);
+    filter: brightness(1.2);
+    
+
+}
